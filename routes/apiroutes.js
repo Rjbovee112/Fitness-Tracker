@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Workouts = require("../public/workout.js")
+const Workouts = require("../Develop/public/models/workout")
 
 router.post("/api/workouts", ({ body }, res) => {
     console.log("you hit the api workouts route")
